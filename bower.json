@@ -1,0 +1,25 @@
+{
+  "name": "noop",
+  "description": "noopppp",
+  "main": "index.html",
+  "authors": [
+    "Branden Dane <branden@danetheory.com>"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/DaneTheory/noop",
+  "moduleType": [
+    "es6"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.6",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1"
+  }
+}

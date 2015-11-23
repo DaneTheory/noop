@@ -2,6 +2,7 @@
   "name": "barbarianChallenge",
   "description": "Barbarian Group Coding Challenge",
   "version": "1.0.0",
+  "license": "UNLICENSED",
   "maintainers": [
     {
       "name": "Branden Dane",
@@ -9,36 +10,46 @@
       "web": "http://danetheory.com"
     }
   ],
-  "repositories": [
+  "repository": [
     {
       "type": "git",
       "url": "https://github.com/DaneTheory/noop.git"
     }
   ],
   "homepage": "http://danetheory.github.io/noop",
-  "devDependencies":{
-    "gulp": "*",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-cache": "*",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "*",
+    "gulp-consolidate": "*",
+    "gulp-csslint": "*",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-filesize": "0.0.6",
+    "gulp-gh-pages": "*",
+    "gulp-iconfont": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "^2.0.0",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-notify": "*",
     "gulp-plumber": "*",
     "gulp-rename": "*",
-    "gulp-sass": "*",
-    "gulp-autoprefixer": "*",
-    "gulp-csscomb": "*",
-    "gulp-babel": "*",
-    "gulp-combine-media-queries": "*",
-    "gulp-csslint": "*",
-    "gulp-frontnote": "*",
-    "gulp-minify-css": "*",
-    "gulp-cache": "*",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "*",
-    "gulp-concat": "*",
-    "gulp-jshint": "*",
-    "gulp-minify-html": "*",
-    "gulp-imagemin": "*",
-    "gulp-iconfont": "*",
-    "gulp-consolidate": "*",
+    "gulp-uncss": "^1.0.4",
+    "imagemin-webp": "^3.1.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
     "lodash": "*",
-    "browser-sync": "*",
-    "gulp-notify": "*",
-    "gulp-gh-pages": "*"
+    "require-dir": "^0.3.0",
+    "imagemin-gifsicle": "^4.2.0",
+    "imagemin-jpegoptim": "^4.1.0",
+    "imagemin-optipng": "^4.3.0",
+    "imagemin-svgo": "^4.2.0"
   }
 }

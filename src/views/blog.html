@@ -1,0 +1,1 @@
+<h1>BLOG TEMPLATE</h1>
